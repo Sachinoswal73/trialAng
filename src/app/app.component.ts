@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'trialAng';
   decVar = 'a declared var';
+  // tempVar = 'jjjs';
 }
